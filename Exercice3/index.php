@@ -19,6 +19,7 @@ public function __construct($name,$price,$description)
       
 }
 //ici nouus avons creer deux objets  $product1 
+
 $product1  = new Product('iPhone 12', 'This is a great iPhone', 799.99);
 echo $product1->name;
 echo $product1->price;
