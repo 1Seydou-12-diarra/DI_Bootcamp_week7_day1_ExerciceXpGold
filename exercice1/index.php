@@ -1,5 +1,6 @@
 
 <?php 
+// class Mycalculator qui prends une function add() qui fait la somme de deux nombres
 class MyCalculator{
    public $nombre1;
    public $nombre2;
@@ -19,6 +20,7 @@ class MyCalculator{
      return $this->nombre1 * $this->nombre2;
    }  
 }
+//instanciation de l'okbjet $mycalc
 $mycalc = new MyCalculator( 12, 6);
 echo $mycalc-> add(); 
 echo $mycalc-> multiply();
